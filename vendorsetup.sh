@@ -19,6 +19,7 @@
 # Please maintain this if you use this script or any part of it.
 #
 
+
 device_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 workspace_root="$(cd "${device_dir}/../../.." && pwd)"
 patch_files=(
