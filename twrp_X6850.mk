@@ -5,22 +5,22 @@
 #
 
 # Inherit from Infinix-X6850 device
-$(call inherit-product, device/infinix/X6850/device.mk)
+$(call inherit-product, device/infinix/X6895/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Include TWRP props.
-$(call inherit-product, device/infinix/X6850/twrp.mk)
+$(call inherit-product, device/infinix/X6895/twrp.mk)
 
 # Include Fox props.
-$(call inherit-product, device/infinix/X6850/fox.mk)
+$(call inherit-product, device/infinix/X6895/fox.mk)
 
 # Product Specifics
-PRODUCT_NAME := twrp_X6850
-PRODUCT_DEVICE := X6850
+PRODUCT_NAME := twrp_X6895
+PRODUCT_DEVICE := X6895
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix X6850
+PRODUCT_MODEL := Infinix X6895
 PRODUCT_MANUFACTURER := INFINIX
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
