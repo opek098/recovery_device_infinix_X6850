@@ -6,7 +6,7 @@ Unofficial device tree for Android 16. Branch: `fox_14.1_X6850`.
 
 | Item | Value |
 | --- | --- |
-| Device | `X6850` |
+| Device | `X6895` |
 | Platform | MT6789 / arm64 |
 | Firmware | Android 16 / SDK 36 |
 | ODM build | `301450016` |
@@ -22,15 +22,15 @@ Keep one device-family tree in the build source scan.
 ```bash
 source build/envsetup.sh
 source device/infinix/X6850/vendorsetup.sh
-lunch twrp_X6850-ap2a-eng
+lunch twrp_X6895-ap2a-eng
 mka adbd vendorbootimage
 ```
 
 ## Output
 
 ```text
-out/target/product/X6850/vendor_boot.img
-out/target/product/X6850/OrangeFox-*.zip
+out/target/product/X6895/vendor_boot.img
+out/target/product/X6895/OrangeFox-*.zip
 ```
 
 `OUT_DIR` overrides the output prefix. The build produces native PLATFORM and
