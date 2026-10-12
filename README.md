@@ -1,4 +1,4 @@
-# OrangeFox 14.1 — Infinix Note 40 Pro 4G (X6850)
+# OrangeFox 14.1 — Infinix HOT70 4G (X6895)
 
 Unofficial device tree for Android 16. Branch: `fox_14.1_X6850`.
 
