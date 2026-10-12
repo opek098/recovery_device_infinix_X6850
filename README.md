@@ -1,6 +1,6 @@
 # OrangeFox 14.1 — Infinix HOT70 4G (X6895)
 
-Unofficial device tree for Android 16. Branch: `fox_14.1_X6850`.
+Unofficial device tree for Android 16. Branch: `fox_14.1_X6895`.
 
 ## Target
 
