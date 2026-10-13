@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_X6895.mk
+    $(LOCAL_DIR)/twrp_X6895B.mk
